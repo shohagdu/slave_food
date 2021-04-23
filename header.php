@@ -4,7 +4,19 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="assets/w3.css">
+<link rel="stylesheet" href="assets/jquery-ui.css">
+
 <script src = "assets/jquery.min.js"></script>
+<script>
+    $( function() {
+        $( ".datepicker" ).datepicker({
+            dateFormat: 'dd-mm-yy',
+            changeMonth: true,
+            changeYear: true
+        });
+    } );
+</script>
+
 <body>
 <div class="w3-top">
     <div class="w3-bar w3-black w3-card">
@@ -12,6 +24,12 @@
         <a href="msAccesstomySQL.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Download Data</a>
         <a href="sync.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Sync to Live</a>
         <a href="dataProcess.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Data Process</a>
+        <a href="reports.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Reports</a>
+        <!--
+        <a href="setup.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Setup</a>
+        -->
+
+
     </div>
 </div>
 <div class="w3-content" style="max-width:2000px;">

@@ -2,10 +2,6 @@
 include 'header.php';
 // read from ini file
 $config = parse_ini_file("settings.ini", true);
-if (!isset($config['MS-CONFIG']) || !isset($config['SLAVE']) || !isset($config['sync'])) {
-    die("Settings not configure properly.");
-}
-
 // slave mysql location database connection
 if (isset($config['SLAVE'])) {
     if (isset($config['SLAVE']['hostname']) && isset($config['SLAVE']['database']) && isset($config['SLAVE']['username']) && isset($config['SLAVE']['password'])) {
@@ -37,23 +33,7 @@ if(empty($setupInfo['union_url'])){
     }
 }
 
-// sync destination
-$destination = $config['sync']['destination'];
-
-// echo $destination;
-// exit;
-
-// slave db connection
-$slave_db = new mysqli($config['SLAVE']['hostname'], $config['SLAVE']['username'], $config['SLAVE']['password'], $config['SLAVE']['database']);
-
-// if connection error
-if ($slave_db->connect_errno) {
-    die($slave_db->connect_error);
-}
 // add sql for live sync
-
-//ALTER TABLE `checkinout`  ADD `id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT  FIRST,  ADD `is_process` TINYINT(1) UNSIGNED NOT NULL DEFAULT '0' COMMENT '0=pending, 1= Sync Complete'  AFTER `id`,  ADD   PRIMARY KEY  (`id`); ALTER TABLE `userinfo`  ADD `id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT  FIRST,  ADD   PRIMARY KEY  (`id`);
-
 
 // get un-processed data from slave table
 $query = $slave_db->query("SELECT * FROM attendance_logs WHERE is_process = 0 LIMIT 100");

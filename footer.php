@@ -1,3 +1,4 @@
+<script src="assets/jquery-ui.js"></script>
         </div>
     </div>
         <div class="w3-clear"></div>

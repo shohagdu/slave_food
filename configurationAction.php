@@ -4,9 +4,6 @@
     date_default_timezone_set("Asia/Dhaka");
     // read ini file
     $config = parse_ini_file("settings.ini", true);
-    if (!isset($config['MS-CONFIG']) || !isset($config['SLAVE']) || !isset($config['sync'])) {
-        die("Settings not configure properly.");
-    }
     // slave mysql location database connection
     if (isset($config['SLAVE'])) {
         if (isset($config['SLAVE']['hostname']) && isset($config['SLAVE']['database']) && isset($config['SLAVE']['username']) && isset($config['SLAVE']['password'])) {
@@ -68,5 +65,4 @@
             echo json_encode(['status'=>'error','message'=>$message,'data'=>'']);exit;
         }
      }
-
 ?>

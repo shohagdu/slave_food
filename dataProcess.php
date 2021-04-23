@@ -88,7 +88,6 @@
                         }else{
                             $("#showResponse").html('<h3>'+response.message+'</h3>');
                             var data=response.data;
-							console.log(data);
                             var p_sl=1;
                             $('#showInfo').html('');
                             var scntDynamicDeptProgram = $('#showInfo');
