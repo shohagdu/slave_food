@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79f0b043-8a5f-4016-8037-ce0ffd8492f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jquery-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reportAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configurationAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/configurationAction.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcess.php" beforeDir="false" afterPath="$PROJECT_DIR$/dataProcess.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sync.php" beforeDir="false" afterPath="$PROJECT_DIR$/sync.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/settings.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +46,7 @@
       <option name="presentableId" value="Default" />
       <updated>1619100007457</updated>
       <workItem from="1619100008490" duration="11399000" />
-      <workItem from="1619159126248" duration="7219000" />
+      <workItem from="1619159126248" duration="7900000" />
     </task>
     <servers />
   </component>
