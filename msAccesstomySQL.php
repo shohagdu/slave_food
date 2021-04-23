@@ -6,23 +6,7 @@ include 'header.php';
         date_default_timezone_set("Asia/Dhaka");
         // read ini file
         $config = parse_ini_file("settings.ini", true);
-        if (!isset($config['MS-CONFIG']) || !isset($config['SLAVE']) || !isset($config['sync'])) {
-            die("Settings not configure properly.");
-        }
 
-        // MS Access file location
-        $source_db = "N/A";
-
-        if (isset($config['MS-CONFIG']) && $config['MS-CONFIG']['file_location']) {
-            $source_db = $config['MS-CONFIG']['file_location'];
-        } else {
-            die("Device database file location not define. Please define the location.");
-        }
-
-        // file existance checking
-        if (!file_exists($source_db)) {
-            die("Device file location is not correct. File not exists.");
-        }
 
         // slave mysql location database connection
         if (isset($config['SLAVE'])) {
