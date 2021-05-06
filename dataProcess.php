@@ -94,7 +94,7 @@
                             $.each(data, function (index, Obj) {
                                 $(`<tr>
                                     <td>${p_sl} </td>
-                                    <td>${Obj.applicant_nid}</td>
+                                    <td>${Obj.applicant_card_no}</td>
                                     <td>${Obj.applicant_nid}</td>
                                     <td>${Obj.name}</td>
                                     <td>${Obj.father_name}</td>

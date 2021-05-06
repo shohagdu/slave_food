@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="79f0b043-8a5f-4016-8037-ce0ffd8492f8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msAccesstomySQL.php" beforeDir="false" afterPath="$PROJECT_DIR$/msAccesstomySQL.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/settings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataProcess.php" beforeDir="false" afterPath="$PROJECT_DIR$/dataProcess.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,8 @@
       <option name="presentableId" value="Default" />
       <updated>1619100007457</updated>
       <workItem from="1619100008490" duration="11399000" />
-      <workItem from="1619159126248" duration="9798000" />
+      <workItem from="1619159126248" duration="10698000" />
+      <workItem from="1620277882581" duration="978000" />
     </task>
     <servers />
   </component>
@@ -55,10 +55,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1619178597269">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1620278260175">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1619178597269" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1620278260175" />
     <state x="517" y="287" key="NewPhpFileDialog" timestamp="1619161000002">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
